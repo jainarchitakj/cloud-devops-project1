@@ -26,13 +26,6 @@ jobs:
       steps:
         - checkout
         - run:
-            name: Diags
-            command: |
-              pwd
-              ls -la . ..
-              printenv
-
-        - run:
             name: Create Cloudformation Stack
             command: |
               pwd
