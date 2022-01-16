@@ -33,7 +33,7 @@ jobs:
               aws cloudformation deploy \
                 --template-file /root/project/template.yml \
                 --stack-name myStack \
-                --region ap-south-1
+                --region ap-south-1-a
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
